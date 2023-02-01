@@ -1,0 +1,73 @@
+img {
+    width: 32%;
+}
+@media (max-width: 1080px) {
+    img {
+        width: 100%
+    }
+}
+
+@media (min-width: 1081px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (min-width: 1081px) {
+    body {
+        background-color: red;
+    }
+}
+
+.left {
+    width: 600px; float: left;
+} 
+
+.right {
+    width: 600px; float: left; margin-left: 30px;
+} 
+
+ .description {
+    width: 600px; 
+} 
+
+body {
+    background-color: beige;
+}
+
+h2, h3 { 
+    color: orangered; font: bold; 
+}
+
+p {
+    color: brown;
+}
+
+ul {
+    font-family: "Papyrus";
+}
+
+ol {
+    font-family: "Papyrus";
+}
+
+h1 {
+    font-family: "Lucida Console"; font: bold; font-size: 55px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* input:checked + label{text-decoration: line-through;} */
+
+.checked {
+    text-decoration: line-through;
+}
+
